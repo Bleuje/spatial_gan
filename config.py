@@ -48,7 +48,7 @@ class Config(object):
 
     ##
     # data input folder
-    sub_name    = 'michaux'
+    sub_name    = 'michauxsmall'
     home        = os.path.expanduser("~")
     texture_dir = "my_data/%s/" % sub_name
     data_iter   = get_texture_iter(texture_dir, npx=npx, mirror=False, batch_size=batch_size)
